@@ -1,0 +1,131 @@
+.todo-list__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  margin: 40px 30px 0 20px;
+}
+
+.todo-list__header {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-list__header-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-list {
+  justify-content: center;
+}
+
+.add-new__img {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.todo-element {
+  display: flex;
+  flex-direction: column;
+  border: 1px rgb(160, 156, 156) solid;
+  box-shadow: 2px 2px 2px rgb(209, 206, 206 20%);
+  background-color: white;
+  width: 15vw;
+  height: 7vw;
+  margin: 10px 0px 10px 0px;
+}
+
+.todo-title {
+  margin: 20px 20px 20px 20px;
+}
+
+.todo-description {
+  margin: 0px 20px 0px 20px;
+}
+
+input {
+  border: 0;
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 5;
+  margin-top: 30px;
+}
+
+textarea {
+  resize: none;
+  border: 0;
+  padding: 0px 20px 0px 20px;
+  outline: none;
+}
+
+button {
+  border: none;
+  background: white;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.label-input__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.remove__img {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  float: right;
+  margin: 0px 10px 0px 0px;
+}
+
+.textarea_image_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+}
+.drag__img {
+  width: 17px;
+  height: 17px;
+  background-color: white;
+  margin: 0px 10px 10px 0px;
+  align-self: flex-end;
+}
+
+.todo_textarea {
+  width: 100%;
+  padding: 0px 0px 0px 20px;
+}
+
+.add-button__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input-remove-btn__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img_drag__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
